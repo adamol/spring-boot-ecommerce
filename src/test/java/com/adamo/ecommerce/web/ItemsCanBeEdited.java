@@ -1,7 +1,7 @@
 package com.adamo.ecommerce.web;
 
-import com.adamo.ecommerce.domain.Item;
-import com.adamo.ecommerce.domain.ItemsRepository;
+import com.adamo.ecommerce.models.Item;
+import com.adamo.ecommerce.repositories.ItemsRepository;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

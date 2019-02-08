@@ -1,8 +1,7 @@
-package com.adamo.ecommerce.domain;
-
-import org.hibernate.annotations.Immutable;
+package com.adamo.ecommerce.models;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "items")
@@ -15,6 +14,9 @@ public class Item {
     private String name;
 
     private Integer price;
+
+    @OneToMany(mappedBy = "item")
+    private Set<InventoryItem> inventory;
 
     public Item() {}
 
@@ -33,5 +35,9 @@ public class Item {
 
     public Integer getPrice() {
         return price;
+    }
+
+    public Set<InventoryItem> getInventory() {
+        return inventory;
     }
 }

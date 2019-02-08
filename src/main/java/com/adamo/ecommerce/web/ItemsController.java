@@ -1,18 +1,27 @@
 package com.adamo.ecommerce.web;
 
-import com.adamo.ecommerce.domain.Item;
-import com.adamo.ecommerce.domain.ItemsRepository;
+import com.adamo.ecommerce.models.InventoryItem;
+import com.adamo.ecommerce.models.InventoryItemCode;
+import com.adamo.ecommerce.models.Item;
+import com.adamo.ecommerce.repositories.InventoryRepository;
+import com.adamo.ecommerce.repositories.ItemsRepository;
+import com.adamo.ecommerce.web.requests.AddItemRequest;
+import com.adamo.ecommerce.web.responses.ItemDetailsResponse;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
 @RestController
-public class ItemsController {
+public class
+ItemsController {
 
     private ItemsRepository itemsRepository;
 
-    public ItemsController(ItemsRepository itemsRepository) {
+    private InventoryRepository inventoryRepository;
+
+    public ItemsController(ItemsRepository itemsRepository, InventoryRepository inventoryRepository) {
         this.itemsRepository = itemsRepository;
+        this.inventoryRepository = inventoryRepository;
     }
 
     @GetMapping("/items")
@@ -23,15 +32,22 @@ public class ItemsController {
     }
 
     @GetMapping("/items/{itemId}")
-    public Optional<Item> getItem(@PathVariable Integer itemId) {
+    public ItemDetailsResponse getItem(@PathVariable Integer itemId) {
         Optional<Item> item = itemsRepository.findById(itemId);
 
-        return item;
+        return ItemDetailsResponse.fromItem(item.get());
     }
 
     @PostMapping("/items")
-    public Item saveItem(@RequestBody Item item) {
+    public Item saveItem(@RequestBody AddItemRequest request) {
+        Item item = new Item(request.getName(), request.getPrice());
         Item saved = itemsRepository.save(item);
+
+        for (int i = 0; i < request.getInventoryCount(); i++) {
+            InventoryItemCode code = InventoryItemCode.create();
+            InventoryItem inventoryItem = new InventoryItem(saved, code.toString());
+            inventoryRepository.save(inventoryItem);
+        }
 
         return saved;
     }

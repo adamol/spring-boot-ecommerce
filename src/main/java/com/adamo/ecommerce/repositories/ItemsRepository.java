@@ -1,5 +1,6 @@
-package com.adamo.ecommerce.domain;
+package com.adamo.ecommerce.repositories;
 
+import com.adamo.ecommerce.models.Item;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
