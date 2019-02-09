@@ -20,6 +20,7 @@ import com.adamo.ecommerce.repositories.ItemsRepository;
 import com.adamo.ecommerce.web.requests.PlaceOrderRequest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,6 +67,10 @@ public class OrdersCanBePlaced {
     @Qualifier("fake")
     private FakeMetrics fakeMetrics;
 
+    @Before
+    public void clearDatabase() {
+        this.itemsRepository.deleteAll();
+    }
 
     @Test
     public void ordersCanBePlaced() throws Exception {

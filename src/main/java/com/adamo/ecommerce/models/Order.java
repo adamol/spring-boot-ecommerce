@@ -7,7 +7,7 @@ import java.util.Set;
 @Table(name = "orders")
 public class Order {
 
-    public enum status {
+    public enum Status {
         PENDING, PAYMENT_RECEIVED, PAYMENT_CANCELLED, SHIPPED
     };
 
@@ -21,7 +21,7 @@ public class Order {
     private String email;
 
     // @TODO: change to enum
-    private String status;
+    private Status status;
 
     private Integer totalCost;
 
@@ -29,7 +29,7 @@ public class Order {
 
     public Order() {}
 
-    public Order(String email, String status, Integer totalCost) {
+    public Order(String email, Status status, Integer totalCost) {
         this.email = email;
         this.status = status;
         this.totalCost = totalCost;
@@ -39,7 +39,7 @@ public class Order {
         return email;
     }
 
-    public String getStatus() {
+    public Status getStatus() {
         return status;
     }
 
@@ -55,7 +55,7 @@ public class Order {
         this.cardLastFour = cardLastFour;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 

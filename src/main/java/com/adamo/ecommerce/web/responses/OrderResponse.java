@@ -1,6 +1,9 @@
 package com.adamo.ecommerce.web.responses;
 
-public class OrderConfirmationResponse {
+import com.adamo.ecommerce.models.Item;
+import com.adamo.ecommerce.models.Order;
+
+public class OrderResponse {
 
     private String email;
 
@@ -13,6 +16,19 @@ public class OrderConfirmationResponse {
     private Integer itemCost;
 
     private Integer totalCost;
+
+    public static OrderResponse create(Order order, Item item) {
+        OrderResponse response = new OrderResponse();
+
+        response.setCardLastFour(order.getCardLastFour());
+        response.setEmail(order.getEmail());
+        response.setItem(item.getName());
+        response.setItemCost(item.getPrice());
+        response.setItemQuantity(1);
+        response.setTotalCost(item.getPrice() * 1);
+
+        return response;
+    }
 
     public String getEmail() {
         return email;

@@ -2,51 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf173d76-6121-4562-9c74-e2503bcf94d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/FakeMailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/JavaMailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/Mailer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/OrderConfirmationEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/FakeLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/LogstashLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/entries/OrderPaymentFailedLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/FakeMetrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/InfluxDbMetrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/MetricEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/Metrics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/entries/OrderWasPlacedMetric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Charge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/InventoryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/InventoryItemCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/FakePaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/StripePaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/repositories/InventoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/repositories/OrdersRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/requests/AddItemRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/requests/PlaceOrderRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/ItemDetailsResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderConfirmationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/ItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/repositories/ItemsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/ItemsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/ItemsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderConfirmationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/domain/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/domain/ItemsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/web/ItemsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/web/ItemsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeAdded.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeAdded.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeEdited.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeEdited.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeViewed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/ItemsCanBeViewed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/models/Order$status.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/models/Order$status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/models/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/models/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/web/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/web/OrdersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/adamo/ecommerce/web/responses/OrderConfirmationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/OrdersCanBeViewed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/adamo/ecommerce/web/OrdersCanBeViewed.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,6 +29,7 @@
     <SUITE FILE_PATH="coverage/demo2$ItemsCanBeViewed.ic" NAME="ItemsCanBeViewed Coverage Results" MODIFIED="1549230713239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.adamo.ecommerce.web.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/demo2$ItemsCanBeAdded_and_4_more.ic" NAME="ItemsCanBeAdded and 4 more Coverage Results" MODIFIED="1549659795721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/demo2$ItemsCanBeAdded.ic" NAME="ItemsCanBeAdded Coverage Results" MODIFIED="1549265557774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.adamo.ecommerce.web.*</FILTER>
     </SUITE>
@@ -69,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="340">
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,10 +72,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="311">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +96,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/StripePaymentGateway.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="158">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="44" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +120,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/EcommerceApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="243">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,19 +132,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/FakeMetrics.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/InfluxDbMetrics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="294">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,10 +144,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/FakePaymentGateway.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="413">
+              <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,25 +156,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/entries/OrderPaymentFailedLog.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/metrics/entries/OrderWasPlacedMetric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="343">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -215,15 +185,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/AddItemRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/InventoryCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/InventoryRepository.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/InventoryItemCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/ItemDetailsResponse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/PlaceOrderRequest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/OrdersRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/infrastructure/PaymentGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/Charge.java" />
@@ -249,12 +214,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrderConfirmationResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/ItemsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/domain/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/infrastructure/StripePaymentGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/OrderPaymentFailedLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/repositories/OrdersRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/FakeMailer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/email/JavaMailer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/logging/FakeLogger.java" />
@@ -264,8 +226,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/FakePaymentGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/StripePaymentGateway.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/EcommerceApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderConfirmationResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java" />
       </list>
     </option>
   </component>
@@ -327,6 +297,15 @@
               <item name="demo2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +358,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549611593440" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549659866462" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -405,47 +384,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrdersCanBeViewed.orderConfirmationCanBeViewed">
-    <configuration name="ItemsCanBeAdded and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ItemsCanBeAdded and 4 more">
+    <configuration name="ItemsCanBeAdded and 4 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ecommerce" />
       <option name="TEST_OBJECT" value="pattern" />
       <patterns>
         <pattern testClass="com.adamo.ecommerce.web.ItemsCanBeAdded" />
         <pattern testClass="com.adamo.ecommerce.web.ItemsCanBeEdited" />
         <pattern testClass="com.adamo.ecommerce.web.ItemsCanBeViewed" />
+        <pattern testClass="com.adamo.ecommerce.web.OrdersCanBePlaced" />
+        <pattern testClass="com.adamo.ecommerce.web.OrdersCanBeViewed" />
       </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemsCanBeAdded.itemCanBeAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemsCanBeAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ecommerce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.adamo.ecommerce.web.requests.*" />
+          <option name="PATTERN" value="com.adamo.ecommerce.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.adamo.ecommerce.web" />
       <option name="MAIN_CLASS_NAME" value="com.adamo.ecommerce.web.ItemsCanBeAdded" />
-      <option name="METHOD_NAME" value="itemCanBeAdded" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemsCanBeViewed.itemDetailsCanBeViewed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ecommerce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.adamo.ecommerce.web.requests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.adamo.ecommerce.web" />
-      <option name="MAIN_CLASS_NAME" value="com.adamo.ecommerce.web.ItemsCanBeViewed" />
-      <option name="METHOD_NAME" value="itemDetailsCanBeViewed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -461,6 +425,22 @@
       <option name="PACKAGE_NAME" value="com.adamo.ecommerce.web" />
       <option name="MAIN_CLASS_NAME" value="com.adamo.ecommerce.web.OrdersCanBePlaced" />
       <option name="METHOD_NAME" value="ordersCanBePlaced" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdersCanBeViewed.listOfOrdersCanBeViewed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.adamo.ecommerce.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.adamo.ecommerce.web" />
+      <option name="MAIN_CLASS_NAME" value="com.adamo.ecommerce.web.OrdersCanBeViewed" />
+      <option name="METHOD_NAME" value="listOfOrdersCanBeViewed" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -484,11 +464,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemsCanBeAdded and 4 more" />
+        <item itemvalue="JUnit.ItemsCanBeAdded" />
+        <item itemvalue="JUnit.OrdersCanBeViewed.listOfOrdersCanBeViewed" />
         <item itemvalue="JUnit.OrdersCanBeViewed.orderConfirmationCanBeViewed" />
         <item itemvalue="JUnit.OrdersCanBePlaced.ordersCanBePlaced" />
-        <item itemvalue="JUnit.ItemsCanBeViewed.itemDetailsCanBeViewed" />
-        <item itemvalue="JUnit.ItemsCanBeAdded.itemCanBeAdded" />
-        <item itemvalue="JUnit.ItemsCanBeAdded and 2 more" />
       </list>
     </recent_temporary>
   </component>
@@ -503,44 +483,44 @@
       <option name="presentableId" value="Default" />
       <updated>1549058146837</updated>
       <workItem from="1549058154524" duration="15504000" />
-      <workItem from="1549264186979" duration="19003000" />
+      <workItem from="1549264186979" duration="20671000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.06 at 18h 06m 09s.xml">
+    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.08 at 08h 38m 14s.xml">
       <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.07 at 08h 09m 13s.xml">
+    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.08 at 08h 38m 46s.xml">
       <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.07 at 08h 12m 01s.xml">
-      <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.07 at 08h 36m 02s.xml">
-      <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.07 at 08h 39m 42s.xml">
-      <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.07 at 18h 19m 42s.xml">
+    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.08 at 08h 39m 15s.xml">
       <configuration name="OrdersCanBeViewed.orderConfirmationCanBeViewed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.07 at 18h 20m 13s.xml">
+    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.08 at 08h 40m 08s.xml">
       <configuration name="OrdersCanBeViewed.orderConfirmationCanBeViewed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBePlaced_ordersCanBePlaced - 2019.02.08 at 08h 30m 45s.xml">
-      <configuration name="OrdersCanBePlaced.ordersCanBePlaced" configurationId="JUnit" />
+    <history-entry file="OrdersCanBeViewed_listOfOrdersCanBeViewed - 2019.02.08 at 21h 58m 27s.xml">
+      <configuration name="OrdersCanBeViewed.listOfOrdersCanBeViewed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.08 at 08h 31m 12s.xml">
-      <configuration name="OrdersCanBeViewed.orderConfirmationCanBeViewed" configurationId="JUnit" />
+    <history-entry file="OrdersCanBeViewed_listOfOrdersCanBeViewed - 2019.02.08 at 21h 59m 30s.xml">
+      <configuration name="OrdersCanBeViewed.listOfOrdersCanBeViewed" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrdersCanBeViewed_orderConfirmationCanBeViewed - 2019.02.08 at 08h 33m 12s.xml">
-      <configuration name="OrdersCanBeViewed.orderConfirmationCanBeViewed" configurationId="JUnit" />
+    <history-entry file="ItemsCanBeAdded_and_4_more - 2019.02.08 at 22h 00m 24s.xml">
+      <configuration name="ItemsCanBeAdded and 4 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsCanBeAdded - 2019.02.08 at 22h 01m 20s.xml">
+      <configuration name="ItemsCanBeAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsCanBeAdded_and_4_more - 2019.02.08 at 22h 02m 09s.xml">
+      <configuration name="ItemsCanBeAdded and 4 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemsCanBeAdded_and_4_more - 2019.02.08 at 22h 03m 41s.xml">
+      <configuration name="ItemsCanBeAdded and 4 more" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34507000" />
+    <option name="totallyTimeSpent" value="36175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -602,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -634,28 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="53" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1466#1467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="40" column="73" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -700,30 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="53" column="61" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/ItemsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -804,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderConfirmationResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/repositories/InventoryRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -872,16 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,7 +889,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/payment/StripePaymentGateway.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -985,17 +899,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/EcommerceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1020,10 +924,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/models/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/responses/OrderResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adamo/ecommerce/web/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeAdded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeViewed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBePlaced.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/OrdersCanBeViewed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/adamo/ecommerce/web/ItemsCanBeEdited.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
